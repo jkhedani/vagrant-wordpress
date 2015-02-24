@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Shell Colors
+#
+# Usage: echo -e "${blue}bluee ${red}red ${RCol}etc...."
+# http://stackoverflow.com/questions/16843382/colored-shell-script-output-library
+
+stop='\033[0m'    # Text Reset
+
+# Regular           Bold                  Underline             High Intensity        BoldHigh Intens       Background            High Intensity Backgrounds
+black='\033[0;30m';   bblack='\033[1;30m';    ublack='\033[4;30m';    iblack='\033[0;90m';    biblack='\033[1;90m';   on_black='\033[40m';    on_Iblack='\033[0;100m';
+red='\033[0;31m';     bred='\033[1;31m';      ured='\033[4;31m';      ired='\033[0;91m';      bired='\033[1;91m';     on_red='\033[41m';      on_Ired='\033[0;101m';
+green='\033[0;32m';   bgreen='\033[1;32m';    ugreen='\033[4;32m';    igreen='\033[0;92m';    bigreen='\033[1;92m';   on_green='\033[42m';    on_Igreen='\033[0;102m';
+yellow='\033[0;33m';  byellow='\033[1;33m';   uyellow='\033[4;33m';   iyellow='\033[0;93m';   biyellow='\033[1;93m';  on_yellow='\033[43m';   on_Iyellow='\033[0;103m';
+blue='\033[0;34m';    bblue='\033[1;34m';     ublue='\033[4;34m';     iblue='\033[0;94m';     biblue='\033[1;94m';    on_blue='\033[44m';     on_Iblue='\033[0;104m';
+purple='\033[0;35m';  bpurple='\033[1;35m';   upurple='\033[4;35m';   ipurple='\033[0;95m';   bipurple='\033[1;95m';  on_purple='\033[45m';   on_Ipurple='\033[0;105m';
+cyan='\033[0;36m';    bcyan='\033[1;36m';     ucyan='\033[4;36m';     icyan='\033[0;96m';     bicyan='\033[1;96m';    on_cyan='\033[46m';     on_Icyan='\033[0;106m';
+white='\033[0;37m';   bwhite='\033[1;37m';    uwhite='\033[4;37m';    iwhite='\033[0;97m';    biwhite='\033[1;97m';   on_white='\033[47m';    on_Iwhite='\033[0;107m';
