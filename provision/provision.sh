@@ -54,7 +54,8 @@ sudo apt-get -y autoremove
 cd /var/www/
 wget http://wordpress.org/latest.tar.gz
 tar xvf latest.tar.gz
-mv wordpress/* .
+mkdir wp
+mv wordpress/* wp
 rmdir wordpress
 rm latest.tar.gz
 
