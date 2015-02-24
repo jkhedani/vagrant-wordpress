@@ -5,8 +5,10 @@
 .DS_Store
 
 # WP Skeleton Ignores
-/www/shared
+# /www/shared
 /www/local-config.php
 /www/sql-dump-*.sql
 /www/db-sync
 /www/content/upgrade/
+
+# Custom Ignores
