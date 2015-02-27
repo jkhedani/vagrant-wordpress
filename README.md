@@ -14,7 +14,8 @@
 3. Install WordPress via Git submodules:
         $ git submodule init
         $ git submodule update
-4. Start the virtual machine:
+4. Create your environment in a directory called 'www'
+5. Start the virtual machine:
         $ vagrant up
 
 ### Theme Configuration
